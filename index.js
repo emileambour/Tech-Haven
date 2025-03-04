@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (users[username] && users[username] === password) {
             localStorage.setItem("loggedInUser", username);
-            window.location.href = "/home-page/home-page.html"; // Redirect on success
+            window.location.href = "/Tech-Haven/home-page/home-page.html"; // Redirect on success
         } else {
             errorMessage.textContent = "Invalid username or password!";
         }
